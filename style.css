@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #8A51FC;
+}
+
+main {
+    background: #F4F4F4;
+    width: 375px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select,input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    color: #555555;
+    font-weight: 700;
+    height: 48px;
+    width: 100%;
+    appearance: none;
+    padding-left: 17px;
+    font-size: 16px;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #772FD3;
+    width: 327px;
+    height: 48px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-block: 2px;
+    cursor: pointer;
+    box-shadow: #a38cc0 0px 4px 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section{
+    border: #772FD3 1px solid;   
+    border-radius: 20px;  
+    margin-top: 16px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: #a38cc0 0px 4px 4px;
+}
+
+.arrow-img {
+    margin: 15px 0;
+    
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.currency{
+    font-size: 14px;
+    color: #777777;
+}
+
+
+@media (max-width: 410px) {
+    main {
+        width: 100%;
+        padding: 42px ;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    main {
+        width: 90%;
+        padding: 30px ;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
